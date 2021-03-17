@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  border: 1px black solid;
+  display:flex;
+
+
+}
+body{
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+
+}
+nav{
+  display: flex;
+  height: 50px;
+
+}
+
+img{
+  border: 1px black solid;
+  height: 50px;
+}
+
+ ul {
+  border: 1px black solid;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+li{
+  margin: 10px;
+  padding: 10px;
+
+}
+
+li > a{
+  display: flex;
+  text-decoration: none;
+
+}
+
+.fas{
+  font-color: black;
+  display: flex;
+  align-items: flex-end;
+  margin:5px;
+  padding: 5px;
+
+}
+
+main{
+  border: 1px black solid;
+
+
+
+}
+.category ul li{
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 10px;
+}
+
+.thumbnails{
+display: flex;
+flex-wrap: wrap;
+}
